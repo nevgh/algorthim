@@ -42,6 +42,18 @@ let arr2 = [7,8,10];
 let mergedArr = arr1.concat(arr2);
 console.log(mergedArr);
 
+/* three without concat */
+
+let arr1 = [2,5,2];
+let arr2 = [7,8,10];
+
+for ( let i = 0; i < arr2.length; i++) {
+arr1.push(arr2[i]);
+
+}
+
+console.log(arr1)
+
 
 /* four */ 
 let numbers= [1,2,3,4];
