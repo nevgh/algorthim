@@ -93,7 +93,20 @@ let numbers = [4, 2, 5, 10, 150];
  
 let largeNum = Math.max(...numbers);
 console.log(largeNum);
+ 
+/* "without cheating" */
 
+let numbers = [4, 2, 44, 568, 5, 10, 150, 20];
+var maxNum = numbers[0];
+
+for ( var i = 0; i < numbers.length; i++) {
+
+if (maxNum < numbers[i]) {
+maxNum = numbers[i];
+}
+}
+
+console.log(maxNum);
 
 /* seven */ 
 let numbers = [4, 2, 5, 10, 150];
