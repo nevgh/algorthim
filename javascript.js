@@ -8,10 +8,9 @@ return names.indexOf(element) === index;
 
 console.log(newNames);
 
-/* Method 2* /
+/* Method 2*/
 let name = ["nevean", "ninos", "sargon", "nevean", "ninos", "jay", "ninos", "jay"];
 let newNames = [];
-
 
 for ( var i = 0; i<name.length; i++) {
 if (!newNames.includes(name[i])) {
