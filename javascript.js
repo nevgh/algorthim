@@ -7,7 +7,7 @@ return names.indexOf(element) === index;
 });
 
 console.log(newNames);
-
+// something changed here asdfasdfasdfasdfa
 /* Method 2*/
 let name = ["nevean", "ninos", "sargon", "nevean", "ninos", "jay", "ninos", "jay"];
 let newNames = [];
